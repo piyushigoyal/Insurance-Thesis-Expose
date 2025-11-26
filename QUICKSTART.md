@@ -123,14 +123,5 @@ python evaluation.py
 
 ---
 
-## 🛡️ About This POC
-
-This proof-of-concept demonstrates how Zurich Insurance can leverage AI agent technology to:
-- **Accelerate** claims processing times
-- **Improve** decision accuracy
-- **Enhance** customer experience
-- **Maintain** human oversight and control
-- **Ensure** full audit compliance
-
 Enjoy exploring the Zurich Insurance Claims Agent POC! 🎉
 
