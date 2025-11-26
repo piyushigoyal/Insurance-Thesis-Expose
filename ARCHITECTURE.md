@@ -8,27 +8,27 @@ The Insurance Claims Agent POC is built using a modular architecture that separa
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        Streamlit UI                          │
-│  (streamlit_app.py)                                          │
-│  - Claim Input Interface                                     │
-│  - Decision Display & Override                               │
-│  - History & Analytics Dashboard                             │
+│                        Streamlit UI                         │
+│  (streamlit_app.py)                                         │
+│  - Claim Input Interface                                    │
+│  - Decision Display & Override                              │
+│  - History & Analytics Dashboard                            │
 └────────────────┬────────────────────────────────────────────┘
                  │
                  ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    Agent Orchestrator                        │
-│  (agent.py)                                                  │
-│  - LangChain Agent Executor                                  │
-│  - Tool Selection & Invocation                               │
-│  - Decision Synthesis                                        │
+│                    Agent Orchestrator                       │
+│  (agent.py)                                                 │
+│  - LangChain Agent Executor                                 │
+│  - Tool Selection & Invocation                              │
+│  - Decision Synthesis                                       │
 └────┬──────────┬──────────┬──────────────────────────────────┘
      │          │          │
      ▼          ▼          ▼
 ┌─────────┐ ┌──────────┐ ┌────────────┐
 │ Policy  │ │   Risk   │ │  Triage    │
 │ Lookup  │ │ Scoring  │ │  Logger    │
-│  Tool   │ │   Tool   │ │    Tool    │
+│  Tool   │ │   Tool   │ │   Tool     │
 └─────────┘ └──────────┘ └────────────┘
      │          │              │
      ▼          ▼              ▼
