@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 4. **Set up environment variables**
 
-Edit `.env` and add your API key:
+Create `.env` and add your API key:
 
 ```
 OPENAI_API_KEY=your_openai_api_key_here
