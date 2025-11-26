@@ -211,7 +211,7 @@ class ClaimsDataGenerator:
 def main():
     """Generate and save claims data for Zurich Insurance POC."""
     print("="*60)
-    print("🛡️  ZURICH INSURANCE - Claims Data Generator")
+    print("ZURICH INSURANCE - Claims Data Generator")
     print("="*60)
     print("\nGenerating synthetic claims data...")
     
