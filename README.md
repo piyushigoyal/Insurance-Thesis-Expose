@@ -48,7 +48,7 @@ Insurance POC/
 ├── logger.py                 # Logging and observability
 ├── streamlit_app.py         # Interactive UI
 ├── requirements.txt          # Python dependencies
-├── .env.example             # Environment variables template
+├── .env                     # Environment variables template
 ├── README.md                # This file
 ├── data/                    # Generated data and logs
 │   ├── claims_data.csv
@@ -77,7 +77,7 @@ cd "Insurance POC"
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 3. **Install dependencies**
